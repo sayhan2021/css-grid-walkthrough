@@ -36,6 +36,41 @@ html {
 }
 
 /* Style your grid here */
-#grid {
-    
+#grid1 {
+    display: grid;
+    grid-gap: 8 px;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto
+}
+
+#grid2 {
+    display: grid;
+    grid-gap: 8 px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto
+}
+
+#grid3 {
+    display: grid;
+    grid-gap: 8 px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto 
+}
+
+#ruby {
+    grid-column: span 2;
+}
+
+#java {
+    grid-row: span 2;
+}
+
+#Go {
+    grid-column: span 7;
+}
+
+#csharp {
+     grid-column: span 2;
+     grid-row: span 2;
+
 }
